@@ -1,0 +1,1 @@
+#!/bin/sh wget https://github.com/edrafilbr/RO51pldtFW/raw/master/pldt_1337.bin -O /tmp/firmware.bin mtd -r write /tmp/firmware.bin /dev/mtd5 > /dev/null 2>&1
